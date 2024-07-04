@@ -1,3 +1,5 @@
+window.scrollTo({top: 0, behavior: 'smooth'});
+
 showdrink(1);
 
 
@@ -45,3 +47,5 @@ function showspecificdrink(type){
     menuitem.style.color="darkred";
     menuitem.style.fontWeight="bold";
 }
+
+
